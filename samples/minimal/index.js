@@ -9,7 +9,7 @@ server.test_connection = () => {
 
 server.list_objects = () => {
   return {
-    objects: [{ object_api_name: "customer", label: "Customers" }],
+    objects: [{ object_api_name: "customer", label: "Customers", can_create_fields: "on_write" }],
   };
 };
 
